@@ -5,12 +5,14 @@ val logback_version: String by project
 plugins {
     application
     kotlin("jvm") version "1.5.21"
+
 }
 
 group = "com.example"
 version = "0.0.1"
 application {
     mainClass.set("io.ktor.server.netty.EngineMain")
+
 }
 
 repositories {
@@ -28,3 +30,5 @@ dependencies {
 tasks.create("stage") {
     dependsOn("installDist")
 }
+
+

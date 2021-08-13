@@ -1,1 +1,1 @@
-web: java -jar build/libs/ktor-test2-1.0.jar
+web: ./build/install/ktor-test2/bin/ktor-test2
