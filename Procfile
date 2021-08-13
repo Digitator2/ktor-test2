@@ -1,0 +1,1 @@
+web: java -jar build/libs/ktor-test2-1.0.jar
